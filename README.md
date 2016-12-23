@@ -1,4 +1,4 @@
-[<img src='https://drivendata.s3.amazonaws.com/images/drivendata.png'>](https://www.drivendata.org/)
+[<img src='https://community.drivendata.org/uploads/default/optimized/1X/e055d38472b1ae95f54110375180ceb4449c026b_1_690x111.png'>](https://www.drivendata.org/)
 <br><br>
 
 ![Banner Image](https://s3.amazonaws.com/drivendata/comp_images/bombus_metis_tile.jpeg)
@@ -22,3 +22,5 @@ Place |Team or User | Public Score | Private Score | Summary of Model
 
 
 #### Winner's Interview: ["Building the best naïve bees classifier!"](http://blog.drivendata.org/2016/04/19/bees-winners/)
+
+#### Benchmark Blog Post: ["Bumble bee or honey bee?"](http://blog.drivendata.org/2015/09/24/bees-benchmark/)

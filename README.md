@@ -1,4 +1,4 @@
-[<img src='https://community.drivendata.org/uploads/default/optimized/1X/e055d38472b1ae95f54110375180ceb4449c026b_1_690x111.png'>](https://www.drivendata.org/)
+[<img src='https://s3.amazonaws.com/drivendata-public-assets/logo-white-blue.png' style="max-width:85%;>](https://www.drivendata.org/)
 <br><br>
 
 ![Banner Image](https://s3.amazonaws.com/drivendata/comp_images/bombus_metis_tile.jpeg)
@@ -17,7 +17,7 @@ This repository contains code volunteered from leading competitors in the [Naive
 ## Winning Submissions
 
 Place |Team or User | Public Score | Private Score | Summary of Model
---- | --- | --- | --- | --- 
+--- | --- | --- | --- | ---
 1 | E.A. | 0.9951 | .9956 | We fine-tuned a GoogleNet model using caffe and achieved great results. Fine-tuning using caffe is an easy task.  For each of the inception outputs in GoogleNet, we extracted the features and passed it through logistic regression model.
 2 | loweew | 0.9946 | 0.9949 | I used the pre-trained googlenet model provided by caffe as a starting point and fine-tuned on the data sets.  Using the last recorded accuracy for each training run, I took the top 75% of models (12 of 16) by accuracy on the validation set.  These models were used to predict on the test set and predictions were averaged with equal weighting.
 3 | L.V.S. | 0.9935 | 0.9934 | To get higher accuracy, I decided to fine-tune a model pre-trained on ImageNet data.

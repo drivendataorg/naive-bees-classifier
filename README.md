@@ -20,9 +20,8 @@ This repository contains code volunteered from leading competitors in the [Naive
 Place |Team or User | Public Score | Private Score | Summary of Model
 --- | --- | --- | --- | ---
 1 | E.A. | 0.9951 | 0.9956 | We fine-tuned a GoogleNet model using caffe and achieved great results. Fine-tuning using caffe is an easy task.  For each of the inception outputs in GoogleNet, we extracted the features and passed it through logistic regression model.
-2 | loweew | 0.9946 | 0.9949 | I used the pre-trained googlenet model provided by caffe as a starting point and fine-tuned on the data sets.  Using the last recorded accuracy for each training run, I took the top 75% of models (12 of 16) by accuracy on the validation set.  These models were used to predict on the test set and predictions were averaged with equal weighting.
-3 | L.V.S. | 0.9935 | 0.9934 | To get higher accuracy, I decided to fine-tune a model pre-trained on ImageNet data.
-
+2 | L.V.S. | 0.9926 | 0.99323 | To get higher accuracy, I decided to fine-tune a model pre-trained on ImageNet data.
+3 | loweew | 0.9924 | 0.99316 | I used the pre-trained googlenet model provided by caffe as a starting point and fine-tuned on the data sets.  Using the last recorded accuracy for each training run, I took the top 75% of models (12 of 16) by accuracy on the validation set.  These models were used to predict on the test set and predictions were averaged with equal weighting.
 
 **Winner's Interview: ["Building the best naïve bees classifier!"](https://drivendata.co/blog/bees-winners/)**
 
